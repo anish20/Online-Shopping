@@ -15,15 +15,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
+		
     <title>Online Shopping - ${title}</title>
-
+      <script >
+   	 window.menu='${title}';
+   </script>
     <!-- Bootstrap core CSS -->
     <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="${css}/myapp.css" rel="stylesheet">
-
+   
+   
   </head>
 
   <body>
@@ -55,7 +58,8 @@
     <!-- Bootstrap core JavaScript -->
     <script src="${js}/jquery.js"></script>
     <script src="${js}/bootstrap.js"></script>
-   
+    <script src="${js}/myapp.js"></script>
+
   </body>
 
 </html>
