@@ -17,11 +17,16 @@
     <meta name="author" content="">
 		
     <title>Online Shopping - ${title}</title>
-      <script >
-   	 window.menu='${title}';
-   </script>
+      
+      <script type="text/javascript">
+       	window.menu = '${title}';
+      </script>
+      
     <!-- Bootstrap core CSS -->
-    <link href="${css}/bootstrap.min.css" rel="stylesheet">
+    <link href="${css}/bootstrap.css" rel="stylesheet">
+    
+     <!-- Bootstrap-Readable-theme -->
+    <link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="${css}/myapp.css" rel="stylesheet">
@@ -30,12 +35,15 @@
   </head>
 
   <body>
-
+	
+	<div class="wrapper">
+	
     <!-- Navigation -->
     <%@include file="./shared/navbar.jsp" %>
 
     <!-- Page Content -->
     <!-- Loading the home content -->
+    <div class="content">
     <c:if test="${userClickHome==true }">
       <%@include file="home.jsp" %>
       </c:if>
@@ -46,20 +54,21 @@
       </c:if>
       
       <!-- Loading the contact content -->
-       <c:if test="${userClicContact==true }">
+       <c:if test="${userClickContact==true }">
       <%@include file="contact.jsp" %>
       </c:if>
       
-      
+      </div>
       
     <!-- Footer -->
     <%@include file="./shared/footer.jsp" %>
 
     <!-- Bootstrap core JavaScript -->
     <script src="${js}/jquery.js"></script>
-    <script src="${js}/bootstrap.js"></script>
+    <script src="${js}/bootstrap.min.js"></script>
     <script src="${js}/myapp.js"></script>
 
+	</div>
   </body>
 
 </html>

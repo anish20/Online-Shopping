@@ -7,7 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a id="home" class="navbar-brand" href="${contextRoot}/home">Online Shopping</a>
+                <a  class="navbar-brand" href="${contextRoot}/home">Online Shopping</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
