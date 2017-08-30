@@ -1,22 +1,27 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="${contextRoot}/home">Online Shopping Portal</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="nav navbar-nav ">
-            
-            <li class="nav-item">
-              <a class="nav-link" href="${contextRoot}/about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="${contextRoot}/listProducts">View Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="${contextRoot}/contact">Contact Us</a>
-            </li>
-          </ul>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="${contextRoot}/home">Online Shopping</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="${contextRoot}/about">About Us</a>
+                    </li>
+                    <li><a href="${contextRoot}/listProducts">View Product</a>
+                    </li>
+                    <li><a href="${contextRoot}/contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
+        <!-- /.container -->
     </nav>

@@ -12,7 +12,7 @@
   <head>
      <link rel="shopping icon" href="${images}/shop.png"  />
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -53,9 +53,9 @@
     <%@include file="./shared/footer.jsp" %>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="${js}/jquery.min.js"></script>
-    <script src="${js}/popper.min.js"></script>
-    <script src="${js}/bootstrap.min.js"></script>
+    <script src="${js}/jquery.js"></script>
+    <script src="${js}/bootstrap.js"></script>
+   
   </body>
 
 </html>

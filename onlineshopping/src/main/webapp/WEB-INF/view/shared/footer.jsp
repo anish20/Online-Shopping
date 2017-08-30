@@ -1,6 +1,14 @@
-<footer class="py-5 bg-gray">
-      <div class="container">
-        <p class="m-0 text-center text-black">Copyright &copy; Your Website 2017</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+<div class="container">
+
+        <hr>
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy;2017
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
